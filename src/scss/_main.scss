@@ -1,0 +1,25 @@
+.main {
+   margin: 60px 0px 60px 0px;
+   &__container {
+      display: flex;
+   }
+
+   &__body {
+   }
+
+   &__image {
+   }
+}
+
+.body-main {
+   flex: 1 1 50%;
+   &__title {
+      font-size: rem(20);
+      }
+
+   &__text {
+   }
+
+   &__button {
+   }
+}
