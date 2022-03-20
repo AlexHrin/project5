@@ -1,0 +1,47 @@
+.customers {
+   &__title {
+      font-weight: 500;
+      font-size: rem(35);
+      line-height: 50px;
+      text-align: center;
+      margin: 0px 0px 13px 0px;
+   }
+
+   &__text {
+      line-height: 30px;
+      text-align: center;
+   }
+
+   &__columns {
+   }
+
+   &__review {
+   }
+}
+.review-customers {
+   max-width: 400px;
+   max-height: 230px;
+   border: 2px solid #8cc5f9;
+   box-sizing: border-box;
+   border-radius: 10px;
+   &__title {
+      display: flex;
+   }
+
+   &__img {
+      flex: 1 1 50%;
+   }
+
+   &__info {
+      flex: 1 1 50%;
+   }
+
+   &__name {
+   }
+
+   &__location {
+   }
+
+   &__text {
+   }
+}

@@ -1,0 +1,22 @@
+.together {
+   &__title {
+      font-weight: 500;
+      font-size: rem(35);
+      line-height: 50px;
+      text-align: center;
+      margin: 0px 0px 13px 0px;
+   }
+
+   &__text {
+      line-height: 30px;
+      text-align: center;
+      margin: 0px 0px 150px 0px;
+   }
+
+   &__image {
+   }
+
+   &__partners {
+      margin: 0px 0px 150px 0px;
+   }
+}

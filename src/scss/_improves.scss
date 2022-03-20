@@ -1,0 +1,30 @@
+.improves {
+   display: flex;
+   width: 1140px;
+   height: 200px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.improve {
+   display: flex;
+
+   &__logo {
+      margin: 0px 35px 0px 0px;
+   }
+
+   &__info {
+   }
+
+   &__number {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: rem(25);
+      line-height: 30px;
+   }
+
+   &__text {
+      font-size: rem(20);
+      line-height: 30px;
+   }
+}

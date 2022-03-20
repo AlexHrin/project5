@@ -1,0 +1,53 @@
+.features {
+   display: flex;
+   &__image {
+      flex: 1 1 50%;
+      margin: 137px 0px 0px 0px;
+   }
+
+   &__info {
+      flex: 1 1 50%;
+      padding: 0px 0px 0px 150px;
+      margin: 150px 0px 0px 0px;
+   }
+
+   &__title {
+      color: $blue;
+      font-weight: 500;
+      font-size: rem(35);
+      line-height: 50px;
+      margin: 0px 0px 20px 0px;
+   }
+
+   &__text {
+      font-size: rem(16);
+      line-height: 30px;
+      margin: 0px 0px 20px 0px;
+   }
+
+   &__pros {
+   }
+
+   &__more {
+      color: $blue;
+      font-size: rem(14);
+      line-height: 30px;
+      padding: 0px 0px 0px 30px;
+      margin: 0px 0px 150px 0px;
+   }
+}
+
+.pros-features {
+   &__box {
+      display: flex;
+   }
+
+   &__mark {
+      margin: 0px 10px 20px 0px;
+   }
+
+   &__text {
+      font-size: rem(14);
+      line-height: 30px;
+   }
+}
