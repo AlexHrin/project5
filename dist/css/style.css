@@ -332,8 +332,17 @@ body._lock {
 .customers__text {
   line-height: 30px;
   text-align: center;
+  margin: 0px 0px 70px 0px;
 }
+.customers__columns {
+  display: flex;
+}
+.customers__review {
+  margin: 0px 0px 100px 0px;
+}
+
 .review-customers {
+  padding: 30px 0px 0px 30px;
   max-width: 400px;
   max-height: 230px;
   border: 2px solid #8cc5f9;
@@ -344,8 +353,44 @@ body._lock {
   display: flex;
 }
 .review-customers__img {
-  flex: 1 1 50%;
+  flex: 1 1 20%;
+  margin: 0px 0px 10px 0px;
 }
 .review-customers__info {
-  flex: 1 1 50%;
+  flex: 1 1 80%;
+}
+.review-customers__name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.review-customers__text {
+  line-height: 30px;
+  margin: 0px 0px 30px 0px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.more__logo {
+  padding: 0px 0px 0px 67px;
+}
+.more__info {
+  padding: 0px 150px 0px 65px;
+}
+.more__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+}
+.more__text {
+  line-height: 30px;
+}
+.more__button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
 }

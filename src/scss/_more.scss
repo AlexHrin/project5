@@ -1,0 +1,29 @@
+.more {
+   display: flex;
+   align-items: center;
+   background: #ffffff;
+   border-radius: 10px;
+   &__logo {
+      padding: 0px 0px 0px 67px;
+   }
+
+   &__info {
+      padding: 0px 150px 0px 65px;
+   }
+
+   &__title {
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 45px;
+   }
+
+   &__text {
+      line-height: 30px;
+   }
+
+   &__button {
+      width: 250px;
+      height: 60px;
+      border-radius: 10px;
+   }
+}
