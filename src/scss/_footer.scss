@@ -1,0 +1,52 @@
+.footer {
+   display: flex;
+   &__container {
+   }
+   &__info {
+   }
+
+   &__menu {
+      display: flex;
+   }
+}
+
+.info-footer {
+   &__logo {
+   }
+
+   &__text {
+      font-size: 18px;
+      line-height: 30px;
+      color: #bdbdbd;
+      margin: 0px 0px 30px 0px;
+   }
+
+   &__socials {
+   }
+
+   &__rights {
+      line-height: 30px;
+      color: #afb5c0;
+   }
+}
+
+.menu-footer {
+   padding: 0px 0px 0px 180px;
+   &__column {
+      padding: 0px 110px 0px 0px;
+   }
+
+   &__title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0px 0px 10px 0px;
+   }
+
+   &__list {
+      line-height: 30px;
+   }
+
+   &__link {
+   }
+}
