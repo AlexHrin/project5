@@ -1,4 +1,6 @@
 .products {
+   &__container {
+   }
    &__info {
       text-align: center;
       margin: 0px 0px 80px 0px;
@@ -74,5 +76,10 @@
       border: 2px solid #8cc5f9;
       box-sizing: border-box;
       border-radius: 47px;
+      &:hover {
+         background: #878abc;
+         border: 2px solid #878abc;
+         color: white;
+      }
    }
 }

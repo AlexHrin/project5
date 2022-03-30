@@ -1,8 +1,10 @@
 .improves {
-   display: flex;
-   max-width: 1140px;
-   max-height: 200px;
-   justify-content: space-between;
+   &__container {
+      display: flex;
+      max-width: 1140px;
+      max-height: 200px;
+      justify-content: space-between;
+   }
 }
 
 .improve {

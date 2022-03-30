@@ -160,7 +160,7 @@ body._lock {
   border-radius: 10px;
 }
 
-.improves {
+.improves__container {
   display: flex;
   max-width: 1140px;
   max-height: 200px;
@@ -184,7 +184,7 @@ body._lock {
   line-height: 30px;
 }
 
-.features {
+.features__container {
   display: flex;
 }
 .features__image {
@@ -293,6 +293,11 @@ body._lock {
   box-sizing: border-box;
   border-radius: 47px;
 }
+.box-products__button:hover {
+  background: #878abc;
+  border: 2px solid #878abc;
+  color: white;
+}
 
 .together__title {
   font-weight: 500;
@@ -357,7 +362,7 @@ body._lock {
   margin: 0px 0px 30px 0px;
 }
 
-.more {
+.more__container {
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -383,7 +388,7 @@ body._lock {
   border-radius: 10px;
 }
 
-.footer {
+.footer__container {
   display: flex;
 }
 .footer__menu {
