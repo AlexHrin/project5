@@ -12,14 +12,18 @@ const swiper = new Swiper('.swiper', {
    // Optional parameters
 
    loop: true,
-   slidesPerView: 8.5,
-   spaceBetween: 20,
+   slidesPerView: 4.5,
+   spaceBetween: 50,
    centeredSlides: true,
+   loop: true,
+
 
    // If we need pagination
    pagination: {
       el: '.swiper-pagination',
+      clickable: true,
    },
+
 
    // Navigation arrows
    navigation: {
@@ -31,4 +35,5 @@ const swiper = new Swiper('.swiper', {
    scrollbar: {
       el: '.swiper-scrollbar',
    },
+   slideToClickedSlide: true
 });

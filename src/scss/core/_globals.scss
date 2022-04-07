@@ -85,7 +85,15 @@ body._lock {
    }
 }
 
-//.swiper {
-//   width: 400px;
-//   height: 300px;
-//}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+   display: none;
+}
+
+.swiper-pagination-bullet {
+   width: 45px;
+   height: 11px;
+   background: #8CC5F9;
+   border-radius: 13px;
+   
+}
