@@ -10,6 +10,14 @@
 .improve {
    display: flex;
 
+		&__wrap {
+         display: flex;
+         border-right: 2px solid #EEEFF2;
+         align-items: center;
+         height: 125.57px;
+		}
+
+
    &__logo {
       margin: 0px 35px 0px 0px;
    }

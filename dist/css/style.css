@@ -1017,6 +1017,12 @@ body._lock {
 .improve {
   display: flex;
 }
+.improve__wrap {
+  display: flex;
+  border-right: 2px solid #EEEFF2;
+  align-items: center;
+  height: 125.57px;
+}
 .improve__logo {
   margin: 0px 35px 0px 0px;
 }
@@ -1088,7 +1094,7 @@ body._lock {
 .products__text {
   display: inline-flex;
   max-width: 776px;
-  max-height: 90px;
+  min-height: 90px;
   text-align: center;
   font-weight: 400;
   line-height: 30px;
@@ -1146,17 +1152,24 @@ body._lock {
   color: white;
 }
 
+.together__info {
+  text-align: center;
+  margin: 0px 0px 80px 0px;
+}
 .together__title {
+  text-align: center;
   font-weight: 500;
   font-size: 2.1875rem;
   line-height: 50px;
-  text-align: center;
-  margin: 0px 0px 13px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .together__text {
-  line-height: 30px;
+  display: inline-flex;
+  max-width: 555px;
+  min-height: 60px;
   text-align: center;
-  margin: 0px 0px 150px 0px;
+  font-weight: 400;
+  line-height: 30px;
 }
 .together__partners {
   margin: 0px 0px 150px 0px;
