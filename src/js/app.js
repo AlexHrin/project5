@@ -37,3 +37,11 @@ const swiper = new Swiper('.swiper', {
    },
    slideToClickedSlide: true
 });
+
+
+$(document).ready(function () {
+   $('.language-header__item').on('click', function () {
+      $(this).find('.language-header__list').toggle();
+   });
+});
+
