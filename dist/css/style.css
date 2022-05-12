@@ -914,6 +914,7 @@ body._lock {
   line-height: 21px;
 }
 .header__close {
+  cursor: pointer;
   position: fixed;
   right: 0;
   margin: 0px 10px 0px 0px;
@@ -943,6 +944,7 @@ body._lock {
   gap: 43px;
 }
 .menu__link {
+  color: #08090A;
   line-height: 19px;
 }
 
@@ -960,6 +962,7 @@ body._lock {
   margin: 0px 5px 0px 0px;
 }
 .language-header__list {
+  display: none;
   position: absolute;
   top: 100%;
   width: 100%;
@@ -973,16 +976,15 @@ body._lock {
   margin: 0px 0px 0px 15px;
 }
 
+.main {
+  margin: 0px 0px 150px 0px;
+}
 .main__container {
   display: flex;
 }
 .main__body {
-  flex: 1 1 50%;
+  flex: 0 0 50%;
 }
-.main__image {
-  margin: 0px 0px 150px 0px;
-}
-
 .body-main__title {
   text-transform: uppercase;
   font-size: 3.125rem;
@@ -992,6 +994,7 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .body-main__text {
+  color: #4F5665;
   font-size: 1.375rem;
   line-height: 30px;
   margin: 0px 0px 60px 0px;
@@ -1092,6 +1095,7 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .products__text {
+  color: #4F5665;
   display: inline-flex;
   max-width: 776px;
   min-height: 90px;
@@ -1152,6 +1156,9 @@ body._lock {
   color: white;
 }
 
+.together {
+  margin: 0px 0px 150px 0px;
+}
 .together__info {
   text-align: center;
   margin: 0px 0px 80px 0px;
@@ -1164,6 +1171,7 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .together__text {
+  color: #4f5665;
   display: inline-flex;
   max-width: 555px;
   min-height: 60px;
@@ -1172,9 +1180,16 @@ body._lock {
   line-height: 30px;
 }
 .together__partners {
-  margin: 0px 0px 150px 0px;
+  display: flex;
+  align-items: center;
+}
+.together__partners img {
+  margin: 0px 30px 0px 0px;
 }
 
+.customers__container {
+  margin: 0px 0px 140px 0px;
+}
 .customers__title {
   font-weight: 500;
   font-size: 2.1875rem;
@@ -1183,6 +1198,7 @@ body._lock {
   margin: 0px 0px 13px 0px;
 }
 .customers__text {
+  color: #4F5665;
   line-height: 30px;
   text-align: center;
   margin: 0px 0px 70px 0px;
@@ -1221,11 +1237,17 @@ body._lock {
   margin: 0px 0px 30px 0px;
 }
 
+.more {
+  margin: 0px 0px 120px 0px;
+}
 .more__container {
   display: flex;
   align-items: center;
   background: #ffffff;
   border-radius: 10px;
+}
+.more__left {
+  display: flex;
 }
 .more__logo {
   padding: 0px 0px 0px 67px;
@@ -1239,6 +1261,7 @@ body._lock {
   line-height: 45px;
 }
 .more__text {
+  color: #4F5665;
   line-height: 30px;
 }
 .more__button {
@@ -1284,4 +1307,7 @@ body._lock {
 }
 .menu-footer__list {
   line-height: 30px;
+}
+.menu-footer__link {
+  color: #4F5665;
 }

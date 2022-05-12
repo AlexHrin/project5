@@ -38,10 +38,21 @@ const swiper = new Swiper('.swiper', {
    slideToClickedSlide: true
 });
 
-
+// TOOGLE LANGUAGE
 $(document).ready(function () {
    $('.language-header__item').on('click', function () {
       $(this).find('.language-header__list').toggle();
    });
 });
 
+// CLOSE COVID INFO
+var block = document.querySelector('.header__infobox');
+var button = document.querySelector('.header__close');
+button.onclick = function () {
+   if (block.style.display === 'none') {
+      block.style.display = 'block';
+   } else {
+      block.style.display = 'none';
+   };
+   return;
+};

@@ -17,6 +17,7 @@
    }
 
    &__close {
+      cursor: pointer;
       position: fixed;
       right: 0;
       margin: 0px 10px 0px 0px;
@@ -63,6 +64,7 @@
    }
 
    &__link {
+      color: #08090A;
       line-height: 19px;
    }
 }
@@ -99,6 +101,7 @@
    }
 
    &__list {
+      display: none;
       position: absolute;
       top: 100%;
       width: 100%;

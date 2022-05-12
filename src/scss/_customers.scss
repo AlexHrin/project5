@@ -1,5 +1,6 @@
 .customers {
    &__container {
+      margin: 0px 0px 140px 0px;
    }
    &__title {
       font-weight: 500;
@@ -10,6 +11,7 @@
    }
 
    &__text {
+      color: #4F5665;
       line-height: 30px;
       text-align: center;
       margin: 0px 0px 70px 0px;

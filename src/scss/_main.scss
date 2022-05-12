@@ -1,15 +1,15 @@
-.main {
+.main {        margin: 0px 0px 150px 0px;
    &__container {
       display: flex;
+      
    }
 
    &__body {
-      flex: 1 1 50%;
+      flex: 0 0 50%;
    }
 
    &__image {
-      margin: 0px 0px 150px 0px;
-   }
+      }
 }
 
 .body-main {
@@ -23,6 +23,7 @@
    }
 
    &__text {
+      color: #4F5665;
       font-size: rem(22);
       line-height: 30px;
       margin: 0px 0px 60px 0px;
