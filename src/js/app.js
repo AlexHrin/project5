@@ -41,18 +41,25 @@ const swiper = new Swiper('.swiper', {
 // TOOGLE LANGUAGE
 $(document).ready(function () {
    $('.language-header__item').on('click', function () {
-      $(this).find('.language-header__list').toggle();
+      $(this).toggleClass('is-active');
+      //$(this).next().toggle();
+
+      $(this).closest('.language-header').find('.language-header__list').toggle();
+   });
+
+   $('.header__close').on('click', function () {
+      $('.header__infobox').toggle();
    });
 });
 
-// CLOSE COVID INFO
-var block = document.querySelector('.header__infobox');
-var button = document.querySelector('.header__close');
-button.onclick = function () {
-   if (block.style.display === 'none') {
-      block.style.display = 'block';
-   } else {
-      block.style.display = 'none';
-   };
-   return;
-};
+//// CLOSE COVID INFO
+//var block = document.querySelector('.header__infobox');
+//var button = document.querySelector('.header__close');
+//button.onclick = function () {
+//   if (block.style.display === 'none') {
+//      block.style.display = 'block';
+//   } else {
+//      block.style.display = 'none';
+//   };
+//   return;
+//};
