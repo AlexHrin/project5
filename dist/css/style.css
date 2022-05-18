@@ -1,3 +1,14 @@
+/**
+ * Swiper 8.0.7
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2022 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: March 4, 2022
+ */
 @font-face {
   font-family: "swiper-icons";
   src: url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA");
@@ -786,7 +797,7 @@ body._lock {
 }
 
 ._container {
-  max-width: 1180px;
+  max-width: 1200px;
   padding: 0 20px;
   margin: 0px auto;
 }
@@ -816,7 +827,8 @@ body._lock {
   font-style: normal;
   font-display: block;
 }
-[class^=_icon-], [class*=" _icon-"] {
+[class^=_icon-],
+[class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icons" !important;
   speak: never;
@@ -843,7 +855,7 @@ body._lock {
 .swiper-pagination-bullet {
   width: 45px;
   height: 11px;
-  background: #8CC5F9;
+  background: #8cc5f9;
   border-radius: 13px;
 }
 
@@ -897,7 +909,7 @@ body._lock {
   height: 60px;
 }
 .header__text {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -933,8 +945,11 @@ body._lock {
   gap: 43px;
 }
 .menu__link {
-  color: #08090A;
+  color: #08090a;
   line-height: 19px;
+}
+.menu__link:hover {
+  color: #8cc5f9;
 }
 
 .language-header {
@@ -963,7 +978,7 @@ body._lock {
   position: absolute;
   top: 100%;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
@@ -991,7 +1006,7 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .body-main__text {
-  color: #4F5665;
+  color: #4f5665;
   font-size: 1.375rem;
   line-height: 30px;
   margin: 0px 0px 60px 0px;
@@ -1009,17 +1024,12 @@ body._lock {
 
 .improves__container {
   display: flex;
-  max-width: 1140px;
-  max-height: 200px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 190px;
 }
 
-.improve {
-  display: flex;
-}
 .improve__wrap {
   display: flex;
-  border-right: 2px solid #EEEFF2;
   align-items: center;
   height: 125.57px;
 }
@@ -1057,16 +1067,22 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .features__text {
+  color: #4f5665;
   font-size: 1rem;
   line-height: 30px;
   margin: 0px 0px 20px 0px;
 }
+.features__pros {
+  color: #4f5665;
+}
 .features__more {
-  color: #8cc5f9;
   font-size: 0.875rem;
   line-height: 30px;
   padding: 0px 0px 0px 30px;
   margin: 0px 0px 150px 0px;
+}
+.features__more a {
+  color: #8cc5f9;
 }
 
 .pros-features__box {
@@ -1080,6 +1096,9 @@ body._lock {
   line-height: 30px;
 }
 
+.products {
+  margin: 0px 0px 110px 0px;
+}
 .products__info {
   text-align: center;
   margin: 0px 0px 80px 0px;
@@ -1092,7 +1111,7 @@ body._lock {
   margin: 0px 0px 20px 0px;
 }
 .products__text {
-  color: #4F5665;
+  color: #4f5665;
   display: inline-flex;
   max-width: 776px;
   min-height: 90px;
@@ -1104,7 +1123,6 @@ body._lock {
   display: flex;
   flex-wrap: wrap;
   margin: 0px -15px;
-  margin: 0px 0px 150px 0px;
 }
 .products__box {
   margin: 0 15px 50px;
@@ -1136,15 +1154,14 @@ body._lock {
   line-height: 30px;
 }
 .box-products__button {
-  width: 148.74px;
-  height: 39.76px;
+  max-width: 150px;
+  min-height: 40px;
   display: flex;
+  align-items: center;
   justify-content: center;
   color: #8cc5f9;
   font-weight: 500;
-  line-height: 30px;
   border: 2px solid #8cc5f9;
-  box-sizing: border-box;
   border-radius: 47px;
 }
 .box-products__button:hover {
@@ -1154,7 +1171,7 @@ body._lock {
 }
 
 .together {
-  margin: 0px 0px 150px 0px;
+  margin: 0px 0px 100px 0px;
 }
 .together__info {
   text-align: center;
@@ -1175,6 +1192,9 @@ body._lock {
   text-align: center;
   font-weight: 400;
   line-height: 30px;
+}
+.together__image {
+  margin: 0px 0px 50px 0px;
 }
 .together__partners {
   display: flex;
@@ -1258,7 +1278,7 @@ body._lock {
   line-height: 45px;
 }
 .more__text {
-  color: #4F5665;
+  color: #4f5665;
   line-height: 30px;
 }
 .more__button {
@@ -1277,8 +1297,12 @@ body._lock {
 }
 .footer__menu {
   display: flex;
+  padding: 0px 0px 0px 185px;
 }
 
+.info-footer {
+  max-width: 400px;
+}
 .info-footer__text {
   font-size: 18px;
   line-height: 30px;
@@ -1291,10 +1315,8 @@ body._lock {
 }
 
 .menu-footer {
-  padding: 0px 0px 0px 180px;
-}
-.menu-footer__column {
-  padding: 0px 110px 0px 0px;
+  display: flex;
+  gap: 110px;
 }
 .menu-footer__title {
   font-weight: 500;
@@ -1306,5 +1328,11 @@ body._lock {
   line-height: 30px;
 }
 .menu-footer__link {
-  color: #4F5665;
+  color: #4f5665;
+}
+.menu-footer__link:hover {
+  color: #8cc5f9;
+}
+.menu-footer li {
+  margin: 0px 0px 10px 0px;
 }

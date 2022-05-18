@@ -7,10 +7,12 @@
 
    &__menu {
       display: flex;
+      padding: 0px 0px 0px 185px;
    }
 }
 
 .info-footer {
+   max-width: 400px;
    &__logo {
    }
 
@@ -31,9 +33,9 @@
 }
 
 .menu-footer {
-   padding: 0px 0px 0px 180px;
+   display: flex;
+   gap: 110px;
    &__column {
-      padding: 0px 110px 0px 0px;
    }
 
    &__title {
@@ -48,7 +50,12 @@
    }
 
    &__link {
-      color: #4F5665;
-
+      color: #4f5665;
+      &:hover {
+         color: $blue;
+      }
+   }
+   li {
+      margin: 0px 0px 10px 0px;
    }
 }

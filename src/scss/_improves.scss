@@ -1,22 +1,18 @@
 .improves {
    &__container {
       display: flex;
-      max-width: 1140px;
-      max-height: 200px;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 190px;
    }
 }
 
 .improve {
-   display: flex;
-
    &__wrap {
-         display: flex;
-         border-right: 2px solid #EEEFF2;
-         align-items: center;
-         height: 125.57px;
-		}
-
+      display: flex;
+      //border-left: 2px solid #eeeff2;
+      align-items: center;
+      height: 125.57px;
+   }
 
    &__logo {
       margin: 0px 35px 0px 0px;

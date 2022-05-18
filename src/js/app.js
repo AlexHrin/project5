@@ -47,6 +47,8 @@ $(document).ready(function () {
       $(this).closest('.language-header').find('.language-header__list').toggle();
    });
 
+
+   // CLOSE COVID INFO
    $('.header__close').on('click', function () {
       $('.header__infobox').toggle();
    });

@@ -1,7 +1,7 @@
-.main {        margin: 0px 0px 150px 0px;
+.main {
+   margin: 0px 0px 150px 0px;
    &__container {
       display: flex;
-      
    }
 
    &__body {
@@ -9,7 +9,7 @@
    }
 
    &__image {
-      }
+   }
 }
 
 .body-main {
@@ -23,7 +23,7 @@
    }
 
    &__text {
-      color: #4F5665;
+      color: #4f5665;
       font-size: rem(22);
       line-height: 30px;
       margin: 0px 0px 60px 0px;
