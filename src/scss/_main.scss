@@ -2,13 +2,28 @@
    margin: 0px 0px 150px 0px;
    &__container {
       display: flex;
+      align-items: center;
+      @include breakpoint-down(dw3) {
+         display: block;
+      }
    }
 
    &__body {
-      flex: 0 0 50%;
+      flex: 1 1 50%;
+      max-width: 450px;
+   }
+   @include breakpoint-down(dw3) {
+      text-align: center;
    }
 
    &__image {
+      flex: 1 1 50%;
+   }
+   img {
+      width: 100%;
+      @include breakpoint-down(dw2) {
+         width: 90%;
+      }
    }
 }
 
