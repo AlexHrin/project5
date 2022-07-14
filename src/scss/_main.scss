@@ -28,6 +28,11 @@
 }
 
 .body-main {
+   @include breakpoint-down(dw3) {
+      display: block;
+      max-width: 679.98px;
+      margin: 0px 0px 40px 0px;
+   }
    &__title {
       text-transform: uppercase;
       font-size: rem(50);
@@ -35,6 +40,11 @@
       line-height: 70px;
       color: $blue;
       margin: 0px 0px 20px 0px;
+      @include breakpoint-down(dw2) {
+         font-size: 40px;
+         line-height: 40px;
+         margin: 0px 0px 15px 0px;
+      }
    }
 
    &__text {
@@ -42,16 +52,26 @@
       font-size: rem(22);
       line-height: 30px;
       margin: 0px 0px 60px 0px;
+      @include breakpoint-down(dw2) {
+         font-size: 16px;
+         line-height: 26px;
+         margin: 0px 0px 20px 0px;
+      }
    }
 
    &__button {
-      width: 250px;
-      height: 60px;
+      width: 100%;
+      max-width: 250px;
+      min-height: 60px;
       border-radius: 10px;
       &:hover {
          background: #878abc;
          border: 2px solid #878abc;
          color: white;
+      }
+      @include breakpoint-down(dw2) {
+         max-width: 200px;
+         min-height: 50px;
       }
    }
 }

@@ -3,6 +3,15 @@
       display: flex;
       justify-content: center;
       gap: 190px;
+      @include breakpoint-down(dw1) {
+         gap: 120px;
+      }
+      @include breakpoint-down(dw2) {
+         gap: 60px;
+      }
+      @include breakpoint-down(dw3) {
+         gap: 20px;
+      }
    }
 }
 
@@ -26,10 +35,22 @@
       font-weight: 700;
       font-size: rem(25);
       line-height: 30px;
+      @include breakpoint-down(dw1) {
+         font-size: rem(20);
+      }
+      @include breakpoint-down(dw2) {
+         font-size: rem(15);
+      }
    }
 
    &__text {
       font-size: rem(20);
       line-height: 30px;
+      @include breakpoint-down(dw1) {
+         font-size: rem(20);
+      }
+      @include breakpoint-down(dw2) {
+         font-size: rem(15);
+      }
    }
 }

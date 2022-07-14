@@ -14,6 +14,9 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 21px;
+      @include breakpoint-down(dw2) {
+         font-size: rem(16);
+      }
    }
 
    &__close {
