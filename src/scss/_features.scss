@@ -4,8 +4,8 @@
       @include breakpoint-down(dw3) {
          display: block;
       }
-      }
    }
+
    &__image {
       flex: 1 1 50%;
       margin: 137px 0px 0px 0px;
@@ -18,7 +18,7 @@
    }
 
    &__info {
-         flex: 1 1 50%;
+      flex: 1 1 50%;
       padding: 0px 0px 0px 150px;
       margin: 150px 0px 0px 0px;
       @include breakpoint-down(dw2) {

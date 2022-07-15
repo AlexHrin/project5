@@ -5,6 +5,9 @@
       align-items: center;
       background: #ffffff;
       border-radius: 10px;
+      @include breakpoint-down(dw3) {
+         display: block;
+      }
    }
 
    &__left {
@@ -12,10 +15,21 @@
    }
    &__logo {
       padding: 0px 0px 0px 67px;
+      @include breakpoint-down(dw2) {
+         img {
+            display: none;
+         }
+         padding: 0px;
+      }
    }
 
    &__info {
       padding: 0px 150px 0px 65px;
+      @include breakpoint-down(dw1) {
+         padding: 0px 50px 0px 20px;
+      }
+      @include breakpoint-down(dw2) {
+      }
    }
 
    &__title {
